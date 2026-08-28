@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kontak - BIDANG MUTASI, PROMOSI, KEPANGKATAN, PENILAIAN KINERJA DAN DISIPLIN ASN Kabupaten Kepulauan Aru</title><link rel="stylesheet" href="assets/css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"></head><body>
+<header class="navbar"><div class="nav-inner"><a class="brand" href="index.php"><div class="brand-mark">BK</div><div><strong>BIDANG MUTASI, PROMOSI, KEPANGKATAN, PENILAIAN KINERJA DAN DISIPLIN ASN</strong><span>KABUPATEN KEPULAUAN ARU</span></div></a>
+<button class="menu-toggle" onclick="document.querySelector('.nav-menu').classList.toggle('show')">☰</button>
+<nav class="nav-menu"><a href="index.php">Beranda</a><div class="dropdown"><button class="dropbtn">Layanan <span>⌄</span></button><div class="dropdown-content">
+<a href="layanan.php?layanan=Disiplin">Disiplin</a><a href="layanan.php?layanan=SKP">SKP</a><a href="layanan.php?layanan=Kepangkatan">Kepangkatan</a><a href="layanan.php?layanan=Berkala">Berkala</a><a href="layanan.php?layanan=Fungsional">Fungsional</a><a href="layanan.php?layanan=Jenjang%20Jabatan">Jenjang Jabatan</a><a href="layanan.php?layanan=Mutasi">Mutasi</a><a href="layanan.php?layanan=Promosi">Promosi</a>
+</div></div><a class="active" href="kontak.php">Kontak</a></nav></div></header>
+<section class="page-hero"><div><div class="eyebrow">HUBUNGI KAMI</div><h1>Kontak</h1><p>Informasi kontak BKPSDM Kabupaten Kepulauan Aru.</p></div></section>
+<section class="contact"><div class="contact-card"><span>📍</span><h3>Alamat</h3><p>BKPSDM Kabupaten Kepulauan Aru<br>Dobo, Kabupaten Kepulauan Aru, Maluku</p></div>
+<div class="contact-card"><span>☎</span><h3>Telepon</h3><p>0822 3835 2361</p></div>
+<div class="contact-card"><span>✉</span><h3>Email</h3><p>Silakan isi email resmi BKPSDM.</p></div></section>
+<footer><div><strong>BKPSDM Kabupaten Kepulauan Aru</strong><br><small>Dobo, Maluku</small></div><div>© <?= date("Y") ?> BKPSDM Kabupaten Kepulauan Aru</div></footer></body></html>
